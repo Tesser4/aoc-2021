@@ -6,7 +6,7 @@ const parse = (fileData) => fileData
   .map(line => line.split(' '))
   .map(([direction, value]) => ({ direction, value: Number(value) }))
 
-const solvePart1 = (fileData) => {
+const solvePart2 = (fileData) => {
   const submarineCourse = parse(fileData)
   const position = { horizontal: 0, depth: 0, aim: 0 }
   for (const { direction, value } of submarineCourse) {
@@ -23,4 +23,4 @@ const solvePart1 = (fileData) => {
   return position.horizontal * position.depth
 }
 
-export default solvePart1
+export default solvePart2
