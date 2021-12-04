@@ -1,9 +1,5 @@
 
-const nl = '\r\n'
-const parse = (fileData) => fileData
-  .trim()
-  .split(nl)
-  .map(Number)
+import parse from './parse.js'
 
 const solvePart1 = (fileData) => parse(fileData)
   .reduce((a, c) => 'prev' in a

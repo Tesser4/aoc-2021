@@ -1,8 +1,5 @@
 
-const nl = '\r\n'
-const parse = (fileData) => fileData
-  .trim()
-  .split(nl)
+import parse from './parse.js'
 
 const solvePart1 = (fileData) => {
   const diagnosticReport = parse(fileData)

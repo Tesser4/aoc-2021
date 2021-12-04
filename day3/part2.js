@@ -1,8 +1,5 @@
 
-const nl = '\r\n'
-const parse = (fileData) => fileData
-  .trim()
-  .split(nl)
+import parse from './parse.js'
 
 const getMostCommonGauge = (reportPart, index) => reportPart
   .reduce((a, c) => {

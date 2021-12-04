@@ -1,10 +1,5 @@
 
-const nl = '\r\n'
-const parse = (fileData) => fileData
-  .trim()
-  .split(nl)
-  .map(line => line.split(' '))
-  .map(([direction, value]) => ({ direction, value: Number(value) }))
+import parse from './parse.js'
 
 const solvePart1 = (fileData) => {
   const submarineCourse = parse(fileData)
