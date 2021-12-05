@@ -17,3 +17,6 @@
 - Day 4: Giant Squid
   - [x] Part 1
   - [x] Part 2
+- Day 5: Hydrothermal Venture
+  - [x] Part 1
+  - [x] Part 2
