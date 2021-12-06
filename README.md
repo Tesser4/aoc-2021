@@ -21,3 +21,6 @@
 - Day 5: Hydrothermal Venture
   - [x] [Part 1](day5/part1.js)
   - [x] [Part 2](day5/part2.js)
+- Day 6: Lanternfish
+  - [x] [Part 1](day6/part1.js)
+  - [x] [Part 2](day6/part2.js)
