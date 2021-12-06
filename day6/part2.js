@@ -20,8 +20,12 @@ const solvePart2 = (fileData) => {
   const fishes = parse(fileData)
   const DAYS = 256
   let fishCount = 0
-  for (const fish of fishes)
-    fishCount += recurseOnFish(fish, DAYS)
+  const cache = {}
+  for (const fish of fishes) {
+    if (!(fish in cache))
+      cache[fish] = recurseOnFish(fish, DAYS)
+    fishCount += cache[fish]
+  }
 
   return fishCount
 }
