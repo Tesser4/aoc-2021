@@ -24,3 +24,6 @@
 - Day 6: Lanternfish
   - [x] [Part 1](day6/part1.js)
   - [x] [Part 2](day6/part2.js)
+- Day 7: The Treachery of Whales
+  - [x] [Part 1](day7/part1.js)
+  - [x] [Part 2](day7/part2.js)
