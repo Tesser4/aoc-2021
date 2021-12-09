@@ -27,3 +27,6 @@
 - Day 7: The Treachery of Whales
   - [x] [Part 1](day7/part1.js)
   - [x] [Part 2](day7/part2.js)
+- Day 8: Seven Segment Search
+  - [x] [Part 1](day8/part1.js)
+  - [x] [Part 2](day8/part2.js)
