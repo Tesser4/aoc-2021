@@ -30,3 +30,6 @@
 - Day 8: Seven Segment Search
   - [x] [Part 1](day8/part1.js)
   - [x] [Part 2](day8/part2.js)
+- Day 9: Smoke Basin
+  - [x] [Part 1](day9/part1.js)
+  - [x] [Part 2](day9/part2.js)
