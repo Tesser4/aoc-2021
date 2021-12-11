@@ -33,3 +33,6 @@
 - Day 9: Smoke Basin
   - [x] [Part 1](day9/part1.js)
   - [x] [Part 2](day9/part2.js)
+- Day 10: Syntax Scoring
+  - [x] [Part 1](day10/part1.js)
+  - [x] [Part 2](day10/part2.js)
