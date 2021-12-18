@@ -36,3 +36,6 @@
 - Day 10: Syntax Scoring
   - [x] [Part 1](day10/part1.js)
   - [x] [Part 2](day10/part2.js)
+- Day 11: Dumbo Octopus
+  - [x] [Part 1](day11/part1.js)
+  - [x] [Part 2](day11/part2.js)
