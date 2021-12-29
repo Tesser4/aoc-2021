@@ -39,3 +39,6 @@
 - Day 11: Dumbo Octopus
   - [x] [Part 1](day11/part1.js)
   - [x] [Part 2](day11/part2.js)
+- Day 12: Passage Pathing
+  - [x] [Part 1](day12/part1.js)
+  - [x] [Part 2](day12/part2.js)
