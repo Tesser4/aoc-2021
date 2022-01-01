@@ -42,3 +42,6 @@
 - Day 12: Passage Pathing
   - [x] [Part 1](day12/part1.js)
   - [x] [Part 2](day12/part2.js)
+- Day 13: Transparent Origami
+  - [x] [Part 1](day13/part1.js)
+  - [x] [Part 2](day13/part2.js)
