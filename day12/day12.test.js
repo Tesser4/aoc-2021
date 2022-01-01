@@ -1,8 +1,6 @@
 
 import {
   assertEquals,
-} from '../deps.js'
-import {
   dirname,
   fromFileUrl,
   join,
@@ -17,56 +15,56 @@ const example2FileData = await Deno.readTextFile(join(dirName, 'example2.txt'))
 const example3FileData = await Deno.readTextFile(join(dirName, 'example3.txt'))
 const inputFileData = await Deno.readTextFile(join(dirName, 'input.txt'))
 
-Deno.test('Day 12 (Passage Pathing) - Part 1 - Example 1', () => {
+Deno.test('Day 12 (Passage Pathing) - Part 1 example 1', () => {
   const result = solvePart1(example1FileData)
   const expected = 10
 
   assertEquals(result, expected)
 })
 
-Deno.test('Day 12 (Passage Pathing) - Part 1 - Example 2', () => {
+Deno.test('Day 12 (Passage Pathing) - Part 1 example 2', () => {
   const result = solvePart1(example2FileData)
   const expected = 19
 
   assertEquals(result, expected)
 })
 
-Deno.test('Day 12 (Passage Pathing) - Part 1 - Example 3', () => {
+Deno.test('Day 12 (Passage Pathing) - Part 1 example 3', () => {
   const result = solvePart1(example3FileData)
   const expected = 226
 
   assertEquals(result, expected)
 })
 
-Deno.test('Day 12 (Passage Pathing) - Part 1 - Input', () => {
+Deno.test('Day 12 (Passage Pathing) - Part 1 input', () => {
   const result = solvePart1(inputFileData)
   const expected = 4773
 
   assertEquals(result, expected)
 })
 
-Deno.test('Day 12 (Passage Pathing) - Part 2 - Example 1', () => {
+Deno.test('Day 12 (Passage Pathing) - Part 2 example 1', () => {
   const result = solvePart2(example1FileData)
   const expected = 36
 
   assertEquals(result, expected)
 })
 
-Deno.test('Day 12 (Passage Pathing) - Part 2 - Example 2', () => {
+Deno.test('Day 12 (Passage Pathing) - Part 2 example 2', () => {
   const result = solvePart2(example2FileData)
   const expected = 103
 
   assertEquals(result, expected)
 })
 
-Deno.test('Day 12 (Passage Pathing) - Part 2 - Example 3', () => {
+Deno.test('Day 12 (Passage Pathing) - Part 2 example 3', () => {
   const result = solvePart2(example3FileData)
   const expected = 3509
 
   assertEquals(result, expected)
 })
 
-Deno.test('Day 12 (Passage Pathing) - Part 2 - Input', () => {
+Deno.test('Day 12 (Passage Pathing) - Part 2 input', () => {
   const result = solvePart2(inputFileData)
   const expected = 116985
 

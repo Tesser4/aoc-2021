@@ -1,8 +1,6 @@
 
 import {
   assertEquals,
-} from '../deps.js'
-import {
   dirname,
   fromFileUrl,
   join,
@@ -15,30 +13,30 @@ const dirName = dirname(fromFileUrl(import.meta.url))
 const exampleFileData = await Deno.readTextFile(join(dirName, 'example.txt'))
 const inputFileData = await Deno.readTextFile(join(dirName, 'input.txt'))
 
-Deno.test('Day 2 (Dive!) - Part 1 - Example', () => {
+Deno.test('Day 9 (Smoke Basin) - Part 1 example', () => {
   const result = solvePart1(exampleFileData)
-  const expected = 150
+  const expected = 15
 
   assertEquals(result, expected)
 })
 
-Deno.test('Day 2 (Dive!) - Part 1 - Input', () => {
+Deno.test('Day 9 (Smoke Basin) - Part 1 input', () => {
   const result = solvePart1(inputFileData)
-  const expected = 1936494
+  const expected = 506
 
   assertEquals(result, expected)
 })
 
-Deno.test('Day 2 (Dive!) - Part 2 - Example', () => {
+Deno.test('Day 9 (Smoke Basin) - Part 2 example', () => {
   const result = solvePart2(exampleFileData)
-  const expected = 900
+  const expected = 1134
 
   assertEquals(result, expected)
 })
 
-Deno.test('Day 2 (Dive!) - Part 2 - Input', () => {
+Deno.test('Day 9 (Smoke Basin) - Part 2 input', () => {
   const result = solvePart2(inputFileData)
-  const expected = 1997106066
+  const expected = 931200
 
   assertEquals(result, expected)
 })
