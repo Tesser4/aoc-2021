@@ -45,3 +45,6 @@
 - Day 13: Transparent Origami
   - [x] [Part 1](day13/part1.js)
   - [x] [Part 2](day13/part2.js)
+- Day 14: Extended Polymerization
+  - [x] [Part 1](day14/part1.js)
+  - [x] [Part 2](day14/part2.js)
