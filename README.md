@@ -48,3 +48,6 @@
 - Day 14: Extended Polymerization
   - [x] [Part 1](day14/part1.js)
   - [x] [Part 2](day14/part2.js)
+- Day 15: Chiton
+  - [x] [Part 1](day15/part1.js)
+  - [x] [Part 2](day15/part2.js) (Inefficient solution - Should be revisited)
