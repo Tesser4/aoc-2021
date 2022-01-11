@@ -51,3 +51,6 @@
 - Day 15: Chiton
   - [x] [Part 1](day15/part1.js)
   - [x] [Part 2](day15/part2.js) (Inefficient solution - Should be revisited)
+- Day 16: Packet Decoder
+  - [x] [Part 1](day16/part1.js)
+  - [x] [Part 2](day16/part2.js)
