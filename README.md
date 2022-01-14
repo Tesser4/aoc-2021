@@ -54,3 +54,6 @@
 - Day 16: Packet Decoder
   - [x] [Part 1](day16/part1.js)
   - [x] [Part 2](day16/part2.js)
+- Day 17: Trick Shot
+  - [x] [Part 1](day17/part1.js)
+  - [x] [Part 2](day17/part2.js)
